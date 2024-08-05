@@ -25,3 +25,21 @@ do {
 }
 result : 1,3,5,9
 */
+
+// work with functions
+
+function Add($a, $b){
+    return $a + $b;
+}
+
+function Sub($a, $b){
+    return $a - $b;
+}
+
+function Length($word){
+    return strlen($word);
+}
+
+Print(Add(1,200));
+Print(Sub(1,200));
+Print(Length(Add(1,200)));
