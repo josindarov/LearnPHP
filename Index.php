@@ -54,4 +54,18 @@ result : 1,3,5,9
 // echo get_counter() . "\n";
 // echo get_counter() . "\n";
 // echo get_counter() . "\n";
-?>
+
+
+// work with anonymous functions
+/*function apply($f, $value) {
+    return $f($value);
+}
+
+$double = function($x) { return $x * 2; };
+$count = function($x) {
+    return strlen($x);
+};
+
+echo apply($double, 5) . '<br>';
+
+echo apply($count, "Hello World, what are you doing?");*/
